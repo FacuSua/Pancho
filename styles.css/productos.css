@@ -1,0 +1,87 @@
+nav{
+    font-size: 25px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    display: inline;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.boton :hover{
+    color: white;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.card{
+    background-color: red;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 20px;
+    margin: auto;
+}
+.card img{
+    width: 70%;
+    height: 65%;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin: auto;
+
+}
+.padre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(52, 3, 85);
+}
+
+header{
+    background-color: red;
+    border: 5px solid black;
+}
+section{
+    margin: 25px;
+}
+
+.pie{
+    font-size: 25px;
+}
+.prod{
+    color: bisque;
+}
+footer{
+    background-color: red;
+    border: 5px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    font-size: large;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+.redes li{
+    display: inline;
+    margin: 15px;
+    margin-bottom: 7px;
+}
+.redes li :hover{
+    color: white;
+    font-size: larger;
+    text-decoration: underline;
+}
